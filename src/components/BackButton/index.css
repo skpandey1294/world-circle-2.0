@@ -1,0 +1,35 @@
+.btn-wrapper {
+  align-self: start;
+  margin-left: 200px;
+}
+
+.btn-back {
+  padding: 10px 40px;
+  border-radius: 5px;
+  border-width: 0.1px 0px 0.1px 0px;
+  border-color: white;
+  outline: none;
+  cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+}
+
+.btn-back:hover {
+  border-width: 0.25px 0.25px;
+  transform: scale(1.1);
+}
+
+.bg-lm {
+  background-color: #ffffff;
+}
+
+.bg-dm {
+  background-color: #2b3743;
+}
+
+.lm-text {
+  color: #000000;
+}
+
+.dm-text {
+  color: #ffffff;
+}

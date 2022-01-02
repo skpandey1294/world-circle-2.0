@@ -1,0 +1,91 @@
+.card-btn {
+  width: 320px;
+  transition: transform 0.7s, filter 0.5s ease-in-out;
+  /* transition: transform 0.5s ease; */
+  margin-bottom: 40px;
+  /* border: 0.1px transparent solid; */
+  border: solid rgba(204, 204, 204, 0.1);
+  /* border-top: 0; */
+  border-bottom: 0;
+  /* border-left: 0; */
+  overflow: hidden;
+  /* filter: brightness(100%); */
+  /* filter: blur(2px); */
+  /* z-index: 0; */
+}
+
+.org-left {
+  transform-origin: 10% 100%;
+}
+
+.org-right {
+  transform-origin: 100% 10%;
+}
+
+.solid-dark {
+  border: 0 0.1px transparent solid;
+  background-color: #fff;
+}
+
+Link {
+  text-decoration: none;
+}
+
+.flag {
+  width: 300px;
+  height: 200px;
+}
+
+.countries-top-details {
+  text-align: left;
+  margin: 20px 0 30px 20px;
+  line-height: 1.5;
+}
+
+.countries-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card-btn:hover {
+  border-bottom-right-radius: 10px;
+  transform: scale(1.35);
+  filter: blur(0);
+  filter: brightness(120%);
+  z-index: 1;
+}
+
+.card-btn-lm:hover {
+  filter: brightness(100%);
+}
+
+.lm:hover {
+  border: 0.1px #ffffff solid;
+  border-top: 0;
+  border-bottom: 0;
+  border-left: 0;
+}
+
+.dm:hover {
+  border: 0.1px rgb(37, 117, 117) solid;
+  border-top: 0;
+  border-bottom: 0;
+  border-left: 0;
+}
+
+.bg-lm {
+  background-color: #ffffff;
+}
+
+.bg-dm {
+  background-color: #2b3743;
+}
+
+.lm-text {
+  color: #000000;
+}
+
+.dm-text {
+  color: #ffffff;
+}

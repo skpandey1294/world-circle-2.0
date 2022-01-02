@@ -1,0 +1,14 @@
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.lm-text {
+  color: #000000;
+}
+
+.dm-text {
+  color: #ffffff;
+}

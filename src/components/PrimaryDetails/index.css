@@ -1,0 +1,27 @@
+.countries-top-details {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 20px 0 30px 20px;
+  line-height: 1.5;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.bg-lm {
+  background-color: #ffffff;
+}
+
+.bg-dm {
+  background-color: #2b3743;
+}
+
+.lm-text {
+  color: #000000;
+}
+
+.dm-text {
+  color: #ffffff;
+}

@@ -1,0 +1,83 @@
+.card-btn {
+  width: 320px;
+  margin-bottom: 40px;
+  /* border: 0.1px transparent solid; */
+  border: solid rgba(204, 204, 204, 0.2);
+  /* border-top: 0; */
+  border-bottom: 0;
+  border-left: 0;
+}
+
+.card-btn-lm {
+  border: solid rgba(204, 204, 204, 0.5) !important;
+  box-shadow: 5px 6px 5px rgb(204 204 204 / 80%);
+}
+
+.solid-dark {
+  border: 0 0.1px transparent solid;
+  background-color: #fff;
+}
+
+Link {
+  text-decoration: none;
+}
+
+.flag {
+  width: 300px;
+  height: 200px;
+}
+
+.countries-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card-btn:hover {
+  border-bottom-right-radius: 10px;
+  transform: scaleY(1.35);
+  filter: brightness(120%);
+  z-index: 1;
+}
+
+.card-btn-lm:hover {
+  filter: brightness(90%);
+}
+
+.lm:hover {
+  border: 0.1px #ffffff solid;
+  border-top: 0;
+  border-bottom: 0;
+  border-left: 0;
+}
+
+.dm:hover {
+  border: 0.1px rgb(37, 117, 117) solid;
+  border-top: 0;
+  border-bottom: 0;
+  border-left: 0;
+}
+
+.bg-lm {
+  background-color: #ffffff;
+}
+
+.bg-dm {
+  background-color: #2b3743;
+}
+
+.org-left {
+  transform-origin: 10% 100%;
+}
+
+.org-right {
+  transform-origin: 100% 10%;
+}
+
+.lm-text {
+  color: #000000;
+}
+
+.dm-text {
+  color: #ffffff;
+}

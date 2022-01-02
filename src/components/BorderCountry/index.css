@@ -1,0 +1,21 @@
+.btn-border {
+  margin-left: 10px;
+  background-color: #4472b7 !important;
+  transition: transform 0.5s ease-in-out;
+  color: #ffffff;
+  border-color: white;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn-border:hover {
+  transform: scale(1.2);
+}
+
+.bg-lm {
+  background-color: #ffffff;
+}
+
+.bg-dm {
+  background-color: #2b3743;
+}

@@ -1,0 +1,9 @@
+.container {
+  width: 100%;
+}
+
+.country-search {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 25px 50px;
+}
